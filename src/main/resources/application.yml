@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: felix990801
+file:
+  path: C:\\Users\\11031\\Desktop\\big_event\\bigevent\\src\\main\\java\\com\\example\\bigevent\\server\\
+  upload: /file/**
